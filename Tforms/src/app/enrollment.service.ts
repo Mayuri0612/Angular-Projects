@@ -8,7 +8,7 @@ import { User } from './user';
 })
 export class EnrollmentService {
   _url = 'http://localhost:3200/enroll';//(here enroll is endpoint)
-  constructor(private _http: HttpClient) { }
+  constructor(private _http: HttpClient) { } // object of http clss
 
   enroll(user: User)
   {
